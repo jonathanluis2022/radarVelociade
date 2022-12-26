@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(68, 118, 210), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+    margin: 4rem 4rem 2rem 2rem;
+    margin-bottom: 2px;
+    color: rgb(18, 205, 190);
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+button.acelerador {
+    height: 6rem;
+    width: 4rem;
+    margin-right: 20px;
+    border: solid;
+    border-radius: 8px;
+    background: rgb(149, 190, 149);
+}
+
+button.freio {
+    height: 6rem;
+    width: 4rem;
+    margin-right: 20px;
+    border: solid;
+    border-radius: 8px;
+    background: rgb(189, 77, 77);
+}
+
+.velocimetro {
+    margin-bottom: 2rem;
+    border: solid 3px green;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+
+.container {
+    padding: 2rem;
+    text-align: center;
+
+    margin: 10rem;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.infraçoes {
+    margin-top: 2px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.infra {
+    color: rgb(201, 42, 42);
+}
+
+.grama {
+    padding: 2px;
+    background-color: aquamarine;
+}
